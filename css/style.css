@@ -1,0 +1,98 @@
+/* Reset */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+/* Header */
+
+header{
+background:#111;
+color:white;
+padding:15px;
+text-align:center;
+}
+
+nav{
+margin-top:10px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 10px;
+font-size:16px;
+}
+
+nav a:hover{
+color:orange;
+}
+
+/* Hero Section */
+
+.hero{
+background:#f4f4f4;
+padding:60px 20px;
+text-align:center;
+}
+
+.hero h2{
+font-size:28px;
+margin-bottom:10px;
+}
+
+.hero p{
+margin-bottom:20px;
+}
+
+.btn{
+background:orange;
+color:white;
+padding:10px 20px;
+text-decoration:none;
+border-radius:5px;
+}
+
+/* Services Section */
+
+.services{
+display:flex;
+justify-content:center;
+gap:20px;
+padding:40px;
+flex-wrap:wrap;
+}
+
+.box{
+border:1px solid #ddd;
+padding:20px;
+width:250px;
+text-align:center;
+border-radius:5px;
+background:white;
+}
+
+/* Footer */
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:20px;
+}
+
+/* Mobile Responsive */
+
+@media(max-width:768px){
+
+nav a{
+display:block;
+margin:8px 0;
+}
+
+.services{
+flex-direction:column
