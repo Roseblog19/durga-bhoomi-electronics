@@ -1,3 +1,60 @@
+.hero-banner{
+
+height:400px;
+background:url("../images/store.jpg");
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+
+}
+
+.hero-text{
+background:rgba(0,0,0,0.6);
+padding:30px;
+border-radius:10px;
+}
+
+.features{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+padding:40px;
+
+}
+
+.feature-box{
+
+background:white;
+padding:20px;
+text-align:center;
+border:1px solid #ddd;
+border-radius:8px;
+
+}
+
+.section-title{
+
+text-align:center;
+margin-bottom:30px;
+
+}
+
+.service-strip{
+
+display:flex;
+justify-content:space-around;
+background:#111;
+color:white;
+padding:20px;
+font-size:18px;
+
+}
+
 /* RESET */
 
 *{
@@ -141,3 +198,4 @@ align-items:center;
 }
 
 }
+
